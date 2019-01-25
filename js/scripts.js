@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
+    $("#results").empty(resultArray);
     var length = parseInt($("#userInput").val());
     var resultArray=[];
     if(length!=0){
@@ -14,7 +15,7 @@ $(document).ready(function(){
         }
       }
     }else{
-      resultArray=("beep");
+      resultArray.push("beep");
     }
     $("#results").append(resultArray.join(" "));
 
