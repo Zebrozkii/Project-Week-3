@@ -6,15 +6,17 @@ $(document).ready(function(){
     if(length!=0){
       for (var index = 1; index <= length; index++) {
         if(index===1){
-          resultArray.push("boop");
+          resultArray.push(" boop ");
         }else if (index%3===0) {
-          resultArray.push("sorry i cant do that");
+          resultArray.push(" sorry i cant do that ");
+        }else {
+          resultArray.push(index);
         }
       }
     }else{
       resultArray=("beep");
     }
-    $("#result").append(resultArray).join;
+    $("#results").append(resultArray.join(" "));
 
   });
 });
