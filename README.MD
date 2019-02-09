@@ -17,6 +17,12 @@ _{This projects purpose is to show how we can use arrays and loops to change cer
 * _open index.html_
 * _input number to see results_
 
+## Specifications
+* _Program Replaces  input 0 with "Beep"_
+* _Program replaces input 1 with "Boop"_
+* _Program replaces input divisible 3 with "Sorry i cant do that"_
+
+
 
 ## Known Bugs
 
