@@ -8,12 +8,12 @@ $(document).ready(function(){
 
       for (var index = 0; index <= length; index++) {
         if(index===0){
-          resultArray.push("beep!");
+          resultArray.push("Beep!");
         }
-        else if(index===1){
-          resultArray.push(" boop! ");
-        }else if (index%3===1) {
-          resultArray.push(" sorry i cant do that Dave ");
+        else if(index%3===0){
+          resultArray.push(" Sorry Dave i cant do that! ");
+        }else if (index===1|| index%10==0) {
+          resultArray.push(" Boop!!");
         }else {
           resultArray.push(index);
         }
